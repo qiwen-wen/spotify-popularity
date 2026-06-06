@@ -384,7 +384,7 @@ Having a model that performs well *on average* isn't enough — I also want to k
 
 ### Evaluation Metric
 
-I measure fairness using **precision** — of the tracks the model labels "popular," what fraction truly are. Precision is the right lens for this use case: the cost of unfairness here is a curator *acting* on a wrong "popular" prediction, so I care whether the model's "popular" calls are equally trustworthy for explicit and non-explicit tracks. The test statistic is the **absolute difference in precision** between the two groups, |precision(explicit) − precision(non-explicit)|.
+I measure fairness using **precision** — of the tracks the model labels "popular," what fraction truly are. Precision is the right lens for this use case: the cost of unfairness here is a curator *acting* on a wrong "popular" prediction, so I care whether the model's "popular" calls are equally trustworthy for explicit and non-explicit tracks. The test statistic is the **absolute difference in precision** between the two groups — that is, the absolute value of precision(explicit) − precision(non-explicit).
 
 ### Hypotheses
 
