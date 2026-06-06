@@ -1,11 +1,14 @@
 # Hit or Miss
 
+## Predicting Track Popularity from Audio Features
+
 **Author:** Ella Wen
 
 ---
 
 ## Table of Contents
 
+- [Project Overview](#project-overview)
 - [Introduction](#introduction)
 - [Data Cleaning and Exploratory Data Analysis](#data-cleaning-and-exploratory-data-analysis)
   - [Data Cleaning](#data-cleaning)
@@ -20,6 +23,12 @@
 - [Baseline Model](#baseline-model)
 - [Final Model](#final-model)
 - [Fairness Analysis](#fairness-analysis)
+
+---
+
+## Project Overview
+
+This is a data science project on predicting whether a Spotify track is popular from its audio and metadata features. The dataset used to explore the topic can be found [here](https://dsc80.com/proj04/project4-music/). This project is for DSC 80 at UCSD.
 
 ---
 
