@@ -1,6 +1,6 @@
 # Hit or Miss
 
-**Author:** Ella Wen (q2wen@ucsd.edu)
+**Author:** Ella Wen
 
 ---
 
